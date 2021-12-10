@@ -1,26 +1,6 @@
 <!--  -->
 <template>
-  <div class="container-main">
-    <!-- 导航栏 -->
-    <van-nav-bar title="看嘛" fixed placeholder>
-      <template #right>
-        <van-icon name="search" size="18" />
-      </template>
-    </van-nav-bar>
-    <!-- 路由占位符 -->
-
-    <router-view />
-    <!-- 底部导航栏 -->
-    <van-tabbar route fixed placeholder>
-      <van-tabbar-item replace to="/home" icon="home-o">首页</van-tabbar-item>
-      <van-tabbar-item replace to="/contents" icon="label-o"
-        >目录</van-tabbar-item
-      >
-      <van-tabbar-item replace to="/setting" icon="setting-o" color="#fff"
-        >设置</van-tabbar-item
-      >
-    </van-tabbar>
-  </div>
+  <h1>目录组件</h1>
 </template>
 
 <script>
